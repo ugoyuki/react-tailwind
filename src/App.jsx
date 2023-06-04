@@ -4,7 +4,50 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header className="text-gray-700 border-b border-y-gray-400">
+      <header className=" px-8 py-4 text-left  container bg-gray-950  border-b  flex justify-between">
+        <a href="#">waffle</a>
+        <a href="#">ONLINE SHOP</a>
+        <a href="#">JA</a>
+      </header>
+      <div>
+        <p class="v-writing text-3xl mt-32 leading-loose tracking-widest">
+          エール・エルのワッフルは
+          <br />
+          「日本のワッフル」です
+        </p>
+        <div className="mt-10">
+          <h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi,
+            <br />
+            incidunt laboriosam! Expedita saepe facilis cumque neque dolorum
+            <br />
+            accusamus aut voluptas.
+          </h1>
+          <div className="my-7">
+            <button className="rounded-3xl border px-5 py-3 mx-5 hover:bg-red-500 duration-300">
+              エール・エルについて
+            </button>
+            <button className="rounded-3xl border px-7 py-3 hover:bg-red-500 duration-300">
+              ヒストリー
+            </button>
+          </div>
+        </div>
+        <section className="flex m-16">
+          <div className="mr-8 w-1/2">
+            <img src="https://placehold.jp/600x300.png" alt="ダミー画像" />
+          </div>
+          <div className="w-1/3">
+            <h1 className="text-5xl mb-5 text-left">waffle cake</h1>
+            <p className=" text-left">
+              しっとりふわふわに焼き上げたワッフル生地でフルーツやクリームをサンドしました。カラフルな見た目もかわいらしく、スイーツギフトや手土産におすすめです。
+            </p>
+          </div>
+        </section>
+      </div>
+      {/* <body className="md:container bg-gray-950 m-0 p-0 h-screen w-screen md:mx-auto rounded-lg">
+        <div className="text-white">aaa</div>
+      </body> */}
+      {/* <header className="text-gray-700 border-b border-y-gray-400">
         <div className="container flex mx-auto p-5 flex-col md:flex-row items-center">
           <a href="#" className="font-medium text-gray-900">
             <span className="text-xl ml3 mb-4 md:mb-0">Test</span>
@@ -81,7 +124,7 @@ function App() {
               possimus? Officia!
             </p>
           </div>
-          {/* カードのdivタグ */}
+
           <div className="flex flex-wrap">
             <div className="md:w-1/3 p-4">
               <div className="bg-gray-100 rounded-lg p-2">
@@ -190,7 +233,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
